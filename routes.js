@@ -3,7 +3,7 @@ will be successfull if the data send to data dabe else it will show error. and w
 recent data sended by the user on route  /booking  */
 const express = require("express");
 const router = express.Router(); 
-const Schema = require("./Schema"); 
+const Schema = require("./schema"); 
 const app = express();
 const cors = require("cors");
 const bodyParser = require("body-parser"); 
